@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Jumbotron, Button, Container, Row, Col } from "react-bootstrap";
+import { Jumbotron, Container, Row, Col } from "react-bootstrap";
 import quotesImg from "../assets/img/quotes.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 

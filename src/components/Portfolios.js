@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, CardDeck, Card, Jumbotron, } from "react-bootstrap";
+import { Container, Row, Col, Card, Jumbotron, } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import portfoliosImg1 from "../assets/img/portfolios1.svg";
 import portfoliosImg2 from "../assets/img/portfolios2.svg";
