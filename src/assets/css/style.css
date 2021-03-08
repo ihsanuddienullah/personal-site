@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Ubuntu", "Robot" !important;
+}
+
+.navbar {
+    background-color: white !important;
+    padding-bottom: 0;
+}
+
+.navbar a {
+    color: black !important;
+    font-weight: bolder;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#header .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#header .nav-link:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background: white;
+    border-radius: 0;
+}
+
+#home .jumbotron {
+    text-align: left;
+    font-size: larger;
+    color: black;
+}
+
+#home img {
+    width: 500px;
+}
+
+#home p {
+    font-size: xx-large;
+}
+
+.btn,
+.btn:focus {
+    background-color: lightgray;
+    border-color: black;
+    color: black;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+    background-color: black;
+    border-color: black;
+    color: lightgray;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: lightgray;
+    border-color: black;
+    color: black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.zoomIn h1 {
+    font-weight: bolder;
+}
+
+#about img {
+    width: 350px;
+}
+
+#about p {
+    font-size: xx-large;
+}
+
+#works img,
+#certificates img {
+    width: 500px;
+}
+
+#works #worksIcon .card,
+#certificates #certificatesIcon .card {
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    transition: transform 0.2s;
+    width: 10rem;
+}
+
+#works #worksIcon .card:hover,
+#certificates #certificatesIcon .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#works #worksIcon img,
+#certificates #certificatesIcon img {
+    width: 100px;
+}
+
+#portfolios .card {
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s;
+    width: 18rem;
+}
+
+#portfolios .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#portfolios .card-body {
+    background-color: lightgray;
+}
+
+#portfolios img {
+    width: 120px;
+    margin: 10px auto;
+}
+
+#contact img {
+    width: 400px;
+}
+
+.form-control:focus {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    border-color: black;
+}
+
+#contact .card {
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    border-color: black;
+    margin: 25px auto;
+}
+
+#contact button {
+    width: 100px;
+    float: right;
+}
+
+.alert {
+    margin: 10px 0;
+}
+
+#footer .jumbotron {
+    background-color: lightgray !important;
+    padding: 10px;
+}
+
+#footer img {
+    width: 150px;
+}
+
+#quotes img {
+    width: 450px;
+}
+
+#quotes p {
+    font-size: xx-large;
+}
+
+/* Extra small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) {
+    #home img {
+        width: 200px!important;
+    }
+
+    #portfolios img {
+        width: 30px!important;
+    }
+
+    #portfolios .card {
+        width: 4rem!important;
+    }
+
+    #portfolios .card .card-text {
+        font-size: xx-small!important;
+    }
+
+    #contact img {
+        width: 200px!important;
+    }
+
+    #contact .card {
+        width: 260px!important;
+    }
+
+    #footer h3 {
+        font-size: smaller;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 414px) */
+@media (max-width: 414px) {
+    #home img {
+        width: 350px;
+    }
+
+    #home h1 {
+        margin-top: 30px;
+    }
+    
+    #home p {
+        font-size: large;
+    }
+
+    #portfolios .card {
+        width: 6rem;
+    }
+
+    #portfolios .card .card-text {
+        font-size: small;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    #home img {
+        width: 350px;
+    }
+
+    #about img {
+        width: 250px;
+    }
+
+    #about p {
+        font-size: large!important;
+    }
+
+    #works img,
+    #certificates img {
+        width: 250px!important;
+    }
+
+    #works #worksIcon img,
+    #certificates #certificatesIcon img {
+        width: 40px!important;
+    }
+
+    #works #worksIcon .card,
+    #certificates #certificatesIcon .card {
+        width: 6rem !important;
+        margin: 10px auto;
+    }
+
+    #portfolios img {
+        width: 50px;
+    }
+
+    #portfolios .card {
+        width: 8rem;
+    }
+
+    #quotes img {
+        width: 250px!important;
+    }
+
+    #quotes p {
+        font-size: large!important;
+    }
+
+    #contact img {
+        width: 300px;        
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    #header .nav-link:hover {
+        border-radius: 10px;
+    }
+
+    #home .jumbotron {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #home img {
+        width: 400px;
+    }
+
+    #about p {
+        font-size: x-large;
+    }
+
+    #works img,
+    #certificates img {
+        width: 310px;
+    }
+
+    #works #worksIcon img,
+    #certificates #certificatesIcon img {
+        width: 70px;
+    }
+
+    #works #worksIcon .card,
+    #certificates #certificatesIcon .card {
+        width: 8rem;
+    }
+
+    #portfolios img {
+        width: 80px;        
+    }
+
+    #portfolios .card {
+        width: 12rem;
+    }
+
+    #quotes img {
+        width: 400px;
+    }
+
+    #contact img {
+        width: 300px;        
+    }
+}
