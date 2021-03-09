@@ -49,8 +49,7 @@ export default class Contact extends Component {
                                                         rows={3}
                                                         placeholder="Enter Message"
                                                     />
-                                                </Form.Group>
-                                                <Form.Group controlId="formBasicCheckbox"></Form.Group>
+                                                </Form.Group>                                                
                                                 <Button
                                                     variant="primary"
                                                     type="submit"

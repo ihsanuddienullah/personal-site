@@ -217,7 +217,7 @@ body {
 /* Extra small devices (portrait phones, less than 414px) */
 @media (max-width: 414px) {
     #home img {
-        width: 350px;
+        width: 300px;
     }
 
     #home h1 {
@@ -229,7 +229,7 @@ body {
     }
 
     #portfolios .card {
-        width: 6rem;
+        width: 6rem!important;
     }
 
     #portfolios .card .card-text {
@@ -240,7 +240,7 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
     #home img {
-        width: 350px;
+        width: 300px;
     }
 
     #about img {
@@ -268,11 +268,11 @@ body {
     }
 
     #portfolios img {
-        width: 50px;
+        width: 50px!important;
     }
 
     #portfolios .card {
-        width: 8rem;
+        width: 8rem!important;
     }
 
     #quotes img {
@@ -300,7 +300,7 @@ body {
     }
 
     #home img {
-        width: 400px;
+        width: 300px;
     }
 
     #about p {
@@ -309,7 +309,7 @@ body {
 
     #works img,
     #certificates img {
-        width: 310px;
+        width: 290px;
     }
 
     #works #worksIcon img,
@@ -320,6 +320,7 @@ body {
     #works #worksIcon .card,
     #certificates #certificatesIcon .card {
         width: 8rem;
+        margin: 10px auto;
     }
 
     #portfolios img {
