@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Jumbotron, Container, Row, Col } from "react-bootstrap";
 import xapiensImg from '../assets/img/xapiens.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons' 
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default class Footer extends Component {
     render() {
@@ -14,11 +17,11 @@ export default class Footer extends Component {
                                     Copyright © 2021 Muhammad Ihsanuddienullah |
                                     All rights reserved
                                 </p>
-                                <p>Ihsanuddienullah@gmail.com</p>                                
-                                <i className="fab fa-linkedin-in" style={{fontSize: '24px', margin: '10px'}}></i>
-                                <i className="fab fa-instagram" style={{fontSize: '24px', margin: '10px'}}></i>
-                                <i className="fab fa-github" style={{fontSize: '24px', margin: '10px'}}></i>
-                                <i className="fas fa-envelope" style={{fontSize: '24px', margin: '10px'}}></i>
+                                <p>Ihsanuddienullah@gmail.com</p>       
+                                <FontAwesomeIcon icon={faLinkedinIn} style={{ fontSize: '24px', margin: '10px' }} />
+                                <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '24px', margin: '10px' }}/>
+                                <FontAwesomeIcon icon={faGithub} style={{ fontSize: '24px', margin: '10px' }}/>
+                                <FontAwesomeIcon icon={faEnvelope} style={{ fontSize: '24px', margin: '10px' }}/>
                             </Col>
                             <Col>
                                 <img src={xapiensImg} alt="code" />
