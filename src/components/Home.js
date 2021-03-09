@@ -10,7 +10,7 @@ export default class Home extends Component {
                 <Jumbotron>
                     <Container>
                         <Row className="align-items-center">
-                            <Col>                            
+                            <Col>
                                 <h1>Oh, Hello World!</h1>
                                 <p>
                                     My name is
@@ -25,7 +25,7 @@ export default class Home extends Component {
                                     <Button variant="primary" href="#about">More about me ...</Button>
                                 </p>
                             </Col>
-                            <Col >
+                            <Col>
                                 <Animated animationIn="pulse" className="animate__infinite	infinite">
                                     <img src={homeImg} alt="code" />
                                 </Animated>
