@@ -14,8 +14,11 @@ export default class Footer extends Component {
                                     Copyright © 2021 Muhammad Ihsanuddienullah |
                                     All rights reserved
                                 </p>
-                                <p>Ihsanuddienullah@gmail.com</p>
-                                <h3>ihsanuddienullah.vercel.app</h3>
+                                <p>Ihsanuddienullah@gmail.com</p>                                
+                                <i className="fab fa-linkedin-in" style={{fontSize: '24px', margin: '10px'}}></i>
+                                <i className="fab fa-instagram" style={{fontSize: '24px', margin: '10px'}}></i>
+                                <i className="fab fa-github" style={{fontSize: '24px', margin: '10px'}}></i>
+                                <i className="fas fa-envelope" style={{fontSize: '24px', margin: '10px'}}></i>
                             </Col>
                             <Col>
                                 <img src={xapiensImg} alt="code" />
