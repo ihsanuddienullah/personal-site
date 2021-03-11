@@ -185,15 +185,26 @@ body {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
-    #home h1 {
-        margin-top: 30px;
-    }
-
     #home p {
-        font-size: large;
+        text-align: center;
     }
 
-    #about p, #quotes p {
+    #home h1,
+    #about h1,
+    #works h1,
+    #portfolios h1,
+    #certificates h1,
+    #quotes h1,
+    #contact h1 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about p, #quotes p, #home p {
         font-size: x-large;
+    }
+
+    #header .nav-link:hover {     
+        border-radius: 10px;
     }
 }
