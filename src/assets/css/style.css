@@ -185,10 +185,6 @@ body {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
-    #header .nav-link:hover {
-        border-radius: 10px;
-    }
-
     #home p {
         text-align: center;
     }
@@ -212,5 +208,11 @@ body {
 
     #portfolios .card {
         width: 110%;
+    }
+}
+
+@media (max-width: 992px) {
+    #header .nav-link:hover {
+        border-radius: 10px;
     }
 }
