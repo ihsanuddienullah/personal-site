@@ -10,7 +10,7 @@ export default class Home extends Component {
                 <Jumbotron>
                     <Container>
                         <Row className="align-items-center">
-                            <Col>
+                            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
                                 <ScrollAnimation
                                     animateIn="zoomIn"
                                     animateOnce="true"
@@ -25,7 +25,7 @@ export default class Home extends Component {
                                     <p>- M Ihsanuddienullah</p>
                                 </ScrollAnimation>
                             </Col>
-                            <Col>
+                            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
                                 <ScrollAnimation
                                     animateIn="zoomIn"
                                     animateOnce="true"

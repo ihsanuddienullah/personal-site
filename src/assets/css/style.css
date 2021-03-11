@@ -48,7 +48,7 @@ body {
 }
 
 #home img {
-    width: 500px;
+    width: 100%;
 }
 
 #home p {
@@ -89,7 +89,7 @@ body {
 }
 
 #about img {
-    width: 350px;
+    width: 70%;
 }
 
 #about p {
@@ -98,7 +98,7 @@ body {
 
 #works img,
 #certificates img {
-    width: 500px;
+    width: 80%;
 }
 
 #works #worksIcon .card,
@@ -106,7 +106,7 @@ body {
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
     margin: 10px;
     transition: transform 0.2s;
-    width: 10rem;
+    width: 90%;
 }
 
 #works #worksIcon .card:hover,
@@ -117,13 +117,13 @@ body {
 
 #works #worksIcon img,
 #certificates #certificatesIcon img {
-    width: 100px;
+    width: 90%;
 }
 
 #portfolios .card {
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
     transition: transform 0.2s;
-    width: 18rem;
+    width: 110%;
 }
 
 #portfolios .card:hover {
@@ -136,12 +136,12 @@ body {
 }
 
 #portfolios img {
-    width: 120px;
+    width: 60%;
     margin: 10px auto;
 }
 
 #contact img {
-    width: 400px;
+    width: 90%;
 }
 
 .form-control:focus {
@@ -176,50 +176,15 @@ body {
 }
 
 #quotes img {
-    width: 450px;
+    width: 100%;
 }
 
 #quotes p {
     font-size: xx-large;
 }
 
-/* Extra small devices (portrait phones, less than 320px) */
-@media (max-width: 320px) {
-    #home img {
-        width: 200px !important;
-    }
-
-    #portfolios img {
-        width: 30px !important;
-    }
-
-    #portfolios .card {
-        width: 4rem !important;
-    }
-
-    #portfolios .card .card-text {
-        font-size: xx-small !important;
-    }
-
-    #contact img {
-        width: 200px !important;
-    }
-
-    #contact .card {
-        width: 260px !important;
-    }
-
-    #footer h3 {
-        font-size: smaller;
-    }
-}
-
-/* Extra small devices (portrait phones, less than 414px) */
-@media (max-width: 414px) {
-    #home img {
-        width: 300px;
-    }
-
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
     #home h1 {
         margin-top: 30px;
     }
@@ -228,114 +193,7 @@ body {
         font-size: large;
     }
 
-    #portfolios .card {
-        width: 6rem!important;
-    }
-
-    #portfolios .card .card-text {
-        font-size: small;
-    }
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) {
-    #home img {
-        width: 300px;
-    }
-
-    #about img {
-        width: 250px;
-    }
-
-    #about p {
-        font-size: large !important;
-    }
-
-    #works img,
-    #certificates img {
-        width: 250px !important;
-    }
-
-    #works #worksIcon img,
-    #certificates #certificatesIcon img {
-        width: 40px !important;
-    }
-
-    #works #worksIcon .card,
-    #certificates #certificatesIcon .card {
-        width: 6rem !important;
-        margin: 10px auto;
-    }
-
-    #portfolios img {
-        width: 50px!important;
-    }
-
-    #portfolios .card {
-        width: 8rem!important;
-    }
-
-    #quotes img {
-        width: 250px !important;
-    }
-
-    #quotes p {
-        font-size: large !important;
-    }
-
-    #contact img {
-        width: 300px;
-    }
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) {
-    #header .nav-link:hover {
-        border-radius: 10px;
-    }
-
-    #home .jumbotron {
-        text-align: center;
-        padding-bottom: 0;
-    }
-
-    #home img {
-        width: 300px;
-    }
-
-    #about p {
+    #about p, #quotes p {
         font-size: x-large;
-    }
-
-    #works img,
-    #certificates img {
-        width: 290px;
-    }
-
-    #works #worksIcon img,
-    #certificates #certificatesIcon img {
-        width: 70px;
-    }
-
-    #works #worksIcon .card,
-    #certificates #certificatesIcon .card {
-        width: 8rem;
-        margin: 10px auto;
-    }
-
-    #portfolios img {
-        width: 80px;
-    }
-
-    #portfolios .card {
-        width: 12rem;
-    }
-
-    #quotes img {
-        width: 400px;
-    }
-
-    #contact img {
-        width: 300px;
     }
 }

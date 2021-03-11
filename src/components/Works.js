@@ -16,18 +16,18 @@ export default class Works extends Component {
                 <Jumbotron>
                     <Container>
                         <Row className="align-items-center">
-                            <Col id="worksIcon" md="auto">
+                            <Col id="worksIcon" xs={12} sm={6} md={6} lg={6} xl={6}>
                                 <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                                     <h1>Works</h1>
                                     <Row>
-                                        <Col>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                                             <Card>
                                                 <Card.Body>
                                                     <img src={worksImg1} alt="code" />
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                                             <Card>
                                                 <Card.Body>
                                                     <img src={worksImg2} alt="code" />
@@ -36,14 +36,14 @@ export default class Works extends Component {
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                                             <Card>
                                                 <Card.Body>
                                                     <img src={worksImg3} alt="code" />
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                                             <Card>
                                                 <Card.Body>
                                                     <img src={worksImg4} alt="code" />
@@ -52,14 +52,14 @@ export default class Works extends Component {
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                                             <Card>
                                                 <Card.Body>
                                                     <img src={worksImg5} alt="code" />
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                                             <Card>
                                                 <Card.Body>
                                                     <img src={worksImg6} alt="code" />

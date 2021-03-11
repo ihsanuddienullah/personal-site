@@ -23,18 +23,17 @@ export default class Contact extends Component {
                 <Jumbotron>
                     <Container>
                         <Row className="align-items-center">
-                            <Col md="auto">
+                            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
                                 <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                                     <h1>Contact</h1>
                                     <img src={contactImg} alt="code" />
                                 </ScrollAnimation>
                             </Col>
-                            <Col> 
+                            <Col xs={12} sm={6} md={6} lg={6} xl={6}> 
                                 <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                                     <CardDeck>
                                         <Card
-                                            text="white"
-                                            style={{ width: "18rem" }}
+                                            text="white"                                            
                                         >
                                             <Form onSubmit={this.handleSubmit}>
                                                 <Form.Group controlId="formBasicEmail">

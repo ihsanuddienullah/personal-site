@@ -16,7 +16,7 @@ export default class Works extends Component {
                 <Jumbotron>
                     <Container>
                         <Row className="align-items-center">
-                            <Col>
+                            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
                                 <ScrollAnimation
                                     animateIn="zoomIn"
                                     animateOnce="true"
@@ -25,14 +25,14 @@ export default class Works extends Component {
                                     <img src={certificatesImg} alt="code" />
                                 </ScrollAnimation>
                             </Col>
-                            <Col id="certificatesIcon" md="auto">
+                            <Col id="certificatesIcon" xs={12} sm={6} md={6} lg={6} xl={6}>
                                 <ScrollAnimation
                                     animateIn="zoomIn"
                                     animateOnce="true"
                                 >
                                     <Row>
-                                        <Col>
-                                            <Card style={{ width: "10rem" }}>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <Card>
                                                 <Card.Body>
                                                     <img
                                                         src={cImg1}
@@ -41,8 +41,8 @@ export default class Works extends Component {
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col>
-                                            <Card style={{ width: "10rem" }}>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <Card>
                                                 <Card.Body>
                                                     <img
                                                         src={cImg2}
@@ -53,8 +53,8 @@ export default class Works extends Component {
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col>
-                                            <Card style={{ width: "10rem" }}>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <Card>
                                                 <Card.Body>
                                                     <img
                                                         src={cImg3}
@@ -63,8 +63,8 @@ export default class Works extends Component {
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col>
-                                            <Card style={{ width: "10rem" }}>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <Card>
                                                 <Card.Body>
                                                     <img
                                                         src={cImg4}
@@ -75,8 +75,8 @@ export default class Works extends Component {
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col>
-                                            <Card style={{ width: "10rem" }}>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <Card>
                                                 <Card.Body>
                                                     <img
                                                         src={cImg5}
@@ -85,8 +85,8 @@ export default class Works extends Component {
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col>
-                                            <Card style={{ width: "10rem" }}>
+                                        <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                            <Card>
                                                 <Card.Body>
                                                     <img
                                                         src={cImg6}

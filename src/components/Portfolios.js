@@ -27,7 +27,7 @@ export default class Portfolios extends Component {
                         </Row>
                         <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                             <Row className="mb-4">
-                                <Col>
+                                <Col xs={4} sm={4} md={4} lg={4} xl={4}>
                                     <Card>
                                         <Card.Img
                                             variant="top"
@@ -40,7 +40,7 @@ export default class Portfolios extends Component {
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                <Col>
+                                <Col xs={4} sm={4} md={4} lg={4} xl={4}>
                                     <Card>
                                         <Card.Img
                                             variant="top"
@@ -53,7 +53,7 @@ export default class Portfolios extends Component {
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                <Col>
+                                <Col xs={4} sm={4} md={4} lg={4} xl={4}>
                                     <Card>
                                         <Card.Img
                                             variant="top"
@@ -70,7 +70,7 @@ export default class Portfolios extends Component {
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                             <Row className="mb-4">
-                                <Col>
+                                <Col xs={4} sm={4} md={4} lg={4} xl={4}>
                                     <Card>
                                         <Card.Img
                                             variant="top"
@@ -83,7 +83,7 @@ export default class Portfolios extends Component {
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                <Col>
+                                <Col xs={4} sm={4} md={4} lg={4} xl={4}>
                                     <Card>
                                         <Card.Img
                                             variant="top"
@@ -96,7 +96,7 @@ export default class Portfolios extends Component {
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                <Col>
+                                <Col xs={4} sm={4} md={4} lg={4} xl={4}>
                                     <Card>
                                         <Card.Img
                                             variant="top"
