@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Jumbotron, Card, Container, Row, Col } from "react-bootstrap";
 import worksImg from "../assets/img/works.svg";
-import worksImg1 from "../assets/img/works1.svg";
-import worksImg2 from "../assets/img/works2.svg";
-import worksImg3 from "../assets/img/works3.svg";
-import worksImg4 from "../assets/img/works4.svg";
-import worksImg5 from "../assets/img/works5.svg";
-import worksImg6 from "../assets/img/works6.svg";
+// import worksImg1 from "../assets/img/works1.svg";
+// import worksImg2 from "../assets/img/works2.svg";
+// import worksImg3 from "../assets/img/works3.svg";
+// import worksImg4 from "../assets/img/works4.svg";
+// import worksImg5 from "../assets/img/works5.svg";
+// import worksImg6 from "../assets/img/works6.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import {
     SiHtml5,
