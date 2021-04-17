@@ -15,7 +15,7 @@ import {
     SiPhp,
     SiJava,
     SiCplusplus,
-    SiReact,
+    // SiReact,
 } from "react-icons/si";
 
 export default class Works extends Component {
