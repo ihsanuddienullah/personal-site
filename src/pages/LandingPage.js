@@ -17,10 +17,10 @@ export default class LandingPage extends Component {
                 <Header />
                 <Home />
                 <About />
-                <Works />
+                {/* <Works />
                 <Portfolios />
                 <Certificates />
-                <Quotes />
+                <Quotes /> */}
                 <Contact />
                 <Footer />
             </div>

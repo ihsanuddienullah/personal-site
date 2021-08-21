@@ -21,10 +21,10 @@ export default class Header extends Component {
                         <Nav className="ml-auto navbar-right">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#works">Works</Nav.Link>                            
+                            {/* <Nav.Link href="#works">Works</Nav.Link>                            
                             <Nav.Link href="#portfolios">Portfolios</Nav.Link>
                             <Nav.Link href="#certificates">Certificates</Nav.Link>
-                            <Nav.Link href="#quotes">Quotes</Nav.Link>
+                            <Nav.Link href="#quotes">Quotes</Nav.Link> */}
                             <Nav.Link href="#contact">Contact</Nav.Link>                            
                         </Nav>                        
                     </Navbar.Collapse>
