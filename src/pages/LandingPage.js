@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 export default class LandingPage extends Component {
     render() {
         return (
-            <div>
+            <div id="landingPage">
                 <Header />
                 <Home />
                 <About />

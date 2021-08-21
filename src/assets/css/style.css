@@ -6,6 +6,9 @@ html {
 
 body {
     font-family: "Ubuntu", "Robot" !important;
+}
+
+.jumbotron {
     background-image: url("../img/background.png");
     background-size: cover;
     background-attachment: fixed;
@@ -38,7 +41,7 @@ body {
 
 .jumbotron {
     margin-bottom: 0;
-    background: white;
+    /* background: white; */
     border-radius: 0;
 }
 
@@ -182,7 +185,7 @@ body {
 }
 
 #footer .jumbotron {
-    background-color: lightgray !important;
+    background: lightgray !important;
     padding: 10px;
 }
 
