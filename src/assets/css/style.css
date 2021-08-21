@@ -240,9 +240,7 @@ body {
 
 /* dark mode handle */
 
-@media screen and (prefers-color-scheme: light) {
-    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
-
+@media screen and (prefers-color-scheme: dark) {
     html {
         scroll-behavior: smooth;
     }
