@@ -34,6 +34,11 @@ export default class Contact extends Component {
 
     handleSubmit = (e) => {
         this.setState({ submit: !this.state.submit });
+        window.location.assign(
+            `https://api.whatsapp.com/send?phone=+6282128807395&text=${
+                this.state.name
+            }${" "}${this.state.message}`
+        );
         e.preventDefault();
     };
 
@@ -81,20 +86,12 @@ export default class Contact extends Component {
                                                         required
                                                     />
                                                 </Form.Group>
-                                                <a
-                                                    href={`https://api.whatsapp.com/send?phone=+6282128807395&text=${
-                                                        this.state.name
-                                                    }${" "}${
-                                                        this.state.message
-                                                    }`}
+                                                <Button
+                                                    variant="primary"
+                                                    type="submit"
                                                 >
-                                                    <Button
-                                                        variant="primary"
-                                                        type="button"
-                                                    >
-                                                        Send
-                                                    </Button>
-                                                </a>
+                                                    Send
+                                                </Button>
                                             </Form>
                                             {this.state.submit && (
                                                 <Alert variant="secondary">
