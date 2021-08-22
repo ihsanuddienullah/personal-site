@@ -44,10 +44,15 @@ export default class Contact extends Component {
                     <Container>
                         <Row className="align-items-center">
                             <Col xs={12} sm={6} md={6} lg={6} xl={6}>
-                                <p>
-                                    I'am available for web projects. <br />
-                                    Let's work together indeed!
-                                </p>
+                                <ScrollAnimation
+                                    animateIn="zoomIn"
+                                    animateOnce="true"
+                                >
+                                    <p>
+                                        I'am available for web projects. <br />
+                                        Let's work together indeed!
+                                    </p>
+                                </ScrollAnimation>
                                 <ScrollAnimation
                                     animateIn="zoomIn"
                                     animateOnce="true"

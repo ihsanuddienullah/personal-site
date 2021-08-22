@@ -240,7 +240,7 @@ body {
 
 /* dark mode handle */
 
-@media screen and (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     html {
         scroll-behavior: smooth;
     }
