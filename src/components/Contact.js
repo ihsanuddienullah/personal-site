@@ -35,7 +35,7 @@ export default class Contact extends Component {
     handleSubmit = (e) => {
         this.setState({ submit: !this.state.submit });
         window.location.assign(
-            `https://api.whatsapp.com/send?phone=+6282128807395&text=${
+            `https://api.whatsapp.com/send?phone=+6282128807395&text=Hallo${" "}I'm${" "}${
                 this.state.name
             }${" "}${this.state.message}`
         );
