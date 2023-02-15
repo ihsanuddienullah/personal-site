@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Jumbotron, Container, Row, Col } from "react-bootstrap";
-// import xapiensImg from "../assets/img/xapiens.svg";
 import logo from '../assets/img/ihsan.svg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
