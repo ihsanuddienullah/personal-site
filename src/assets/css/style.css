@@ -203,8 +203,8 @@ body {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
-    #home .container {
-        padding-top: 100px;
+    #home .container, #about .container, #contact .container {
+        padding-top: 50px;
     }
 
     #home p {
