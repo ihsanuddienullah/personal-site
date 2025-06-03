@@ -21,6 +21,7 @@
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
+    
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "postcss": "^8.4.30"
   }
 }
