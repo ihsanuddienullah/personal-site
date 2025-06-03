@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^12.1.10",
     "animate.css": "^4.1.1",
     "bootstrap": "^4.6.0",
+    "postcss": "^8.4.30",
     "react": "^17.0.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-animated-css": "^1.2.1",
@@ -21,7 +22,6 @@
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
-    
   },
   "scripts": {
     "start": "react-scripts start",
