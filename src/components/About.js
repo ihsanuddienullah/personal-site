@@ -19,8 +19,8 @@ export default class Home extends Component {
                             <Col xs={12} sm={6} md={6} lg={6} xl={6}>
                                 <ScrollAnimation animateIn="zoomIn" animateOnce="true">
                                     <p>
-                                        Graduate student of Informatics Engineering.
-                                        Born and raised in Java, Indonesia. I run things with passion, lifelong learning.
+                                        A Software Engineer with 4+ years of experience working on front-end development, 
+                                        proficient with React JS also familiar with Node JS. 
                                         Passionate about client-side programming especially UI design and front-end environment.
                                     </p>
                                 </ScrollAnimation>
